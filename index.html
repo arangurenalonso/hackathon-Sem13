@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+   
+<div class="contenedorCard">
+    <div class="contenedorCard-cabecera">
+        <p class="letraCard letraCard--marca">Dog Crud</p>
+        <p class="letraCard letraCard--agregar">Agregar mascota</p>
+    </div>
+    
+    <div class="card">
+        <div class="icono icono--left">
+            <img class="icono-img" src="img/edit.png" alt="">
+            <p class="letraCard letraCard--icono">Edit</p>
+        </div>
+        <div class="icono icono--right">
+            <img class="icono-img card-icono-imgCerrar" src="img/delete.svg" alt="">
+            <p class="letraCard letraCard--icono">Delete</p>
+        </div>
+
+        <img class="card-img" src="img/perro1.png" alt="">
+        
+        <div class="card-contenido">
+            <p class="letraCard letraCard--Nombre">Nombre</p>
+            <p class="letraCard letraCard--TelfCorrPais">Telefono | Correo</p>
+            <p class="letraCard letraCard--TelfCorrPais">Pais</p>
+            <P class="letraCard letraCard--About">About me about me about me about me about me about me about me about me about me about me about me</P>
+        </div>
+   </div>
+
+   
+   <div class="card">
+    <div class="icono icono--left">
+        <img class="icono-img" src="img/edit.png" alt="">
+        <p class="letraCard letraCard--icono">Edit</p>
+    </div>
+    <div class="icono icono--right">
+        <img class="icono-img card-icono-imgCerrar" src="img/delete.svg" alt="">
+        <p class="letraCard letraCard--icono">Delete</p>
+    </div>
+
+    <img class="card-img" src="img/perro1.png" alt="">
+    
+    <div class="card-contenido">
+        <p class="letraCard letraCard--Nombre">Nombre</p>
+        <p class="letraCard letraCard--TelfCorrPais">Telefono | Correo</p>
+        <p class="letraCard letraCard--TelfCorrPais">Pais</p>
+        <P class="letraCard letraCard--About">About me about me about me about me about me about me about me about me about me about me about me</P>
+    </div>
+</div>
+
+</div>
+
+<div class="modalContenedorCerrar ocultarModalCerrar">
+    <div class="modalCerrar">
+        <img src="img/delete.svg" class="modalCerrar-imgX" alt="">
+    <p>Estas seguro que quieres eliminar a esta mascota??</p>
+        <div class="modalCerrar-seccionBotones">
+            <button class="modalCerrar-btn modalCerrar-btn--Cancelar">Cancelar</button>
+            <button class="modalCerrar-btn modalCerrar-btn--Aceptar">Aceptar</button>
+        </div>
+
+    </div>
+</div>
+<div class="modalContenedorEdit ocultarModalEdit">
+    <div class="modalEdit">
+        <div class="modalEdit-sectitulo" >
+           <p>Editar Mascota</p> 
+           <img src="img/delete.svg" class="modalEdit-imgX" alt="">
+        </div>
+        <div class="modalEdit-secForm" >
+            <input class="modalEdit-secForm-Input" type="text" placeholder="Nombre">
+            <input class="modalEdit-secForm-Input" type="text" placeholder="Apellido">
+            <input class="modalEdit-secForm-Input" type="text" placeholder="Correo">
+            <input class="modalEdit-secForm-Input" type="text" placeholder="Telefono">
+            <select class="modalEdit-secForm-Select" name="cars" id="cars">
+                <option value="peru">Perú</option>
+                <option value="venezuela">Venezuela</option>
+                <option value="otro">Otro</option>
+            </select>
+            <input class="modalEdit-secForm-Input" type="text" placeholder="URL de la Fotografia">
+            <textarea class="modalEdit-secForm-textArea" name="" id="" placeholder="About me about me about" cols="30" rows="10"></textarea>
+        </div>
+        
+    
+        <div class="modalEdit-secBotones">
+            <button class="modalEdit-btn modalEdit-btn--Cancelar">Cancelar</button>
+            <button class="modalEdit-btn modalEdit-btn--Aceptar">Aceptar</button>
+        </div>
+
+    </div>
+</div>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>

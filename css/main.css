@@ -18,7 +18,7 @@
   line-height: 23px;
 }
 
-.letraCard--TelfCorrPais {
+.letraCard--Telf, .letraCard--Corr, .letraCard--Pais {
   font-size: 16px;
   line-height: 19px;
 }
@@ -264,7 +264,7 @@
           align-items: center;
 }
 
-.ocultar {
+.ocultarModalEdit {
   visibility: hidden;
   opacity: 0;
 }
@@ -359,6 +359,122 @@
 }
 
 .modalEdit-btn--Aceptars {
+  text-align: center;
+}
+
+.modalContenedorCrear {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ocultarModalCrear {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.modalCrear {
+  background-color: white;
+  width: 673px;
+  height: 507px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.modalCrear-sectitulo {
+  width: 619px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 21px;
+}
+
+.modalCrear-imgX {
+  height: 17px;
+  width: 17px;
+  cursor: pointer;
+}
+
+.modalCrear-secBotones {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px 0 13px 0;
+}
+
+.modalCrear-secForm {
+  width: 619px;
+  height: 444px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.modalCrear-secForm-Input, .modalCrear-secForm-Select {
+  width: 296px;
+  height: 53px;
+}
+
+.modalCrear-secForm-textArea {
+  width: 619px;
+  height: 185px;
+}
+
+.modalCrear-btn {
+  width: 129px;
+  height: 41px;
+  background-color: #C4C4C4;
+  cursor: pointer;
+  border: none;
+  margin: 0 18px 0 18px;
+}
+
+.modalCrear-btn--Cancelar {
+  text-align: center;
+}
+
+.modalCrear-btn--Aceptars {
   text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

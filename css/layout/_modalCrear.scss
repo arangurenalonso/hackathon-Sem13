@@ -1,4 +1,4 @@
-.modalContenedorEdit{
+.modalContenedorCrear{
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -11,11 +11,11 @@
     
 }
 
-.ocultarModalEdit{
+.ocultarModalCrear{
     visibility: hidden;
     opacity: 0;
 }
-.modalEdit{
+.modalCrear{
     background-color: white;
     width: 673px;
     height: 507px;
